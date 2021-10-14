@@ -1,6 +1,6 @@
 # Negation_project
 
-<h1>AskFm Dataset</h1>
+<h2>AskFm Dataset</h2>
 The first original dataset that we have used in this paper is collected from Ask.fm website. It is primarily used for asking questions either publicly or anonymously and then getting answers from other users. To collect each user's questions and answers, we have crawled each of the profiles using Python web crawler library, Beautiful Soup. Questions and answers associated with each user profile are saved in a CSV file. Question-answer pairs are only extracted if they contain cyberbullying swear words, which were filtered by a string matching technique. In total, we crawled 3720 user profiles and over 400,000 question-answer pairs. Public proxy servers located in the UK, CA, and the USA were employed to retrieve English written posts. Applying insult/swear words string matching reduced the data to 10k unique posts, containing at least one insult/swear word either in the question or in the answer parts. 
 
 We have manually labeled the resulting 10k AskFM dataset. Labeling involves identifying whether each sentence contains cyberbullying or not.  A critical hypothesis developed based on some social science and psychiatry findings, that cyberbullying case must include both insult/swear wording and a second person/person's name \cite{patchin2006bullies}. If there is no second person/person's name available, it may not be considered cyberbullying other than general HS.
@@ -15,5 +15,5 @@ These examples show the requirements mentioned above for HS, cyberbullying, and 
  
 Two independent labelers (who have  knowledge in this field and completed a master's thesis on cyberbullying detection and NLP) have been employed separately for annotation for avoiding bias. While a third one (a senior research fellow and completed his Ph.D. in this field) is called upon whenever a disagreement between the two arises (total disagreement 141).  We attribute the label '1' to a sentence if it is associated with cyberbullying and '0' otherwise. Once labeled, 21.3\% of the dataset was identified as cyberbullying and the rest as non-cyberbullying. The details of the dataset collection source-code and datasets will be released for the community on this  GitHub page\footnote{\url{https://github.com/saroarjahan/expansion_of_cyberbyllying_datasets}}.
 
-FormSpring Dataset
+<h2>FormSpring Dataset</h2>
 The second dataset that we have used was collected from fromspring.me (\textit{\cite{reynolds2011using}}), which is publicly accessible. The data represent 50 IDs from FormSpring.me that were crawled in the Summer of 2010. For each ID, the profile information and each post (question and answer) were extracted. Each post was loaded into Amazon's Mechanical Turk and labeled by three workers for cyberbullying content. The same labeling mechanism as before is used here, as illustrated in  The FormSpring dataset contains 12k posts in which 7\% contains cyberbullying.
