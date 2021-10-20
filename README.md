@@ -21,4 +21,23 @@ The second dataset that we have used was collected from fromspring.me, which is 
 
 <h2>Hasoc-2021 dataset</h2>
 
+This dataset is latest datasets from HASOC_2021 competation. I has two task namely Subtask 1A and Subtask 1B.
+
+Subtask 1A: Identifying Hate, offensive and profane content from the post.
+
+Sub-task A focus on Hate speech and Offensive language identification offered for English. Sub-task A is coarse-grained binary classification in which participating system are required to classify tweets into two class, namely: Hate and Offensive (HOF) and Non- Hate and offensive (NOT).
+(NOT) Non Hate-Offensive - This post does not contain any Hate speech, profane, offensive content.
+(HOF) Hate and Offensive - This post contains Hate, offensive, and profane content.
+
+Subtask 1B :- Discrimination between Hate, profane and offensive posts
+
+This sub-task  is a fine-grained classification offered for English. Hate-speech and offensive posts from the sub-task A are further classified into three categories.
+(HATE) Hate speech :- Posts under this class contain Hate speech content.
+(OFFN) Offenive :- Posts under this class contain offensive content.
+(PRFN) Profane :- These posts contain profane words.
+(NONE):- contain no hate or profane words.
+
+
+
+
 
