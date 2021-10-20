@@ -40,7 +40,7 @@ This sub-task  is a fine-grained classification offered for English. Hate-speech
 (PRFN) Profane :- These posts contain profane words.<br>
 (NONE):- contain no hate or profane words.
 
-offcial website: https://hasocfire.github.io/hasoc/2021/call_for_participation.html
+Offcial website: https://hasocfire.github.io/hasoc/2021/call_for_participation.html
 
 
 
